@@ -1,0 +1,5 @@
+# Ignore node modules if used in future
+node_modules/
+.DS_Store
+.vscode/
+*.log
