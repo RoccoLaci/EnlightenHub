@@ -8,8 +8,14 @@
     .gallery {
       display: flex;
       flex-wrap: wrap;
-      gap: 15px;
+      gap: 20px;
       justify-content: center;
+    }
+
+    .gallery a {
+      text-align: center;
+      text-decoration: none;
+      color: inherit;
     }
 
     .gallery img {
@@ -25,10 +31,14 @@
     }
 
     .caption {
-      text-align: center;
-      font-size: 0.9rem;
-      color: #333;
-      margin-top: 5px;
+      margin-top: 8px;
+      font-size: 0.95rem;
+      color: #A31F34;
+      font-weight: bold;
+    }
+
+    .caption:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
@@ -47,18 +57,18 @@
     <section>
       <h2>🔧 Build Highlights</h2>
       <div class="gallery">
-        <div>
+        <a href="led-headlight.html">
           <img src="images/led-headlight.jpg" alt="LED Headlight Project">
           <div class="caption">LED Headlight Simulation</div>
-        </div>
-        <div>
-          <img src="images/cardboard-car.jpg" alt="Cardboard Car Model">
+        </a>
+        <a href="cardboard-car.html">
+          <img src="images/cardboard-car.jpg" alt="Cardboard Car Build">
           <div class="caption">Cardboard Car Build</div>
-        </div>
-        <div>
-          <img src="images/lava-lamp.jpg" alt="Homemade Lava Lamp">
+        </a>
+        <a href="lava-lamp.html">
+          <img src="images/lava-lamp.jpg" alt="Lava Lamp Chemistry">
           <div class="caption">Lava Lamp Chemistry</div>
-        </div>
+        </a>
       </div>
     </section>
   </main>
